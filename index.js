@@ -23,5 +23,4 @@ export async function mount (props) {
 export async function unmount () {
   ReactDOM.unmountComponentAtNode(document.getElementById('reactRoot'));
 }
-ReactDOM.render(<App />, document.getElementById('reactRoot'));
-
+// ReactDOM.render(<App />, document.getElementById('reactRoot'));
